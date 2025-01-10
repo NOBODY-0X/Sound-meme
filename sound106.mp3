@@ -1,0 +1,6 @@
+
+counter=100
+for file in *; do
+    mv "$file" "sound$counter.mp3"
+    ((counter++))
+done
